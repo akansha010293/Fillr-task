@@ -21,7 +21,7 @@ them in the top frame.
 
 - We can customize the NUMBER_OF_FIELDS heuristic to better suit your application's needs.
 - `postMessage({ type: "fields", fields }, "*");` Would have specified target location due to not \*, when using postMessage to send data to other windows. As a malicious site can change the location of the window without your knowledge, and therefore it can intercept the data sent using postMessage.
-- Implemented few tests using copilot, we can implement them using karma
+- Used copilot to write test for function extractFields, which gives us a basic template of test that we can add for widget functions
 
 ## Submission
 

@@ -19,7 +19,8 @@ const execute = () => {
         }
       });
     } else {
-      // If this is not the top frame, post the fields to the top frame
+      // If this is not the top frame, post the fields to the top frame 
+      // TODO: Avoid using "*" 
       window.top.postMessage({ type: "fields", fields }, "*");
     }
   } catch (e) {
